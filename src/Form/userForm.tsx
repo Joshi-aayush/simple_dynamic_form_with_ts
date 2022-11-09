@@ -1,4 +1,3 @@
-import React from "react";
 import FormWrapper from "../FormWrapper/FormWrapper";
 
 type userData = {
@@ -17,6 +16,7 @@ export default function UserForm({
   age,
   updateFelids: updateFeilds,
 }: UserFromProps) {
+
   return (
     <>
       <FormWrapper title="User Detail">

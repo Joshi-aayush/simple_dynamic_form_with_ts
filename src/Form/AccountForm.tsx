@@ -1,4 +1,3 @@
-import React from "react";
 import FormWrapper from "../FormWrapper/FormWrapper";
 
 type Account_Data = {
@@ -27,7 +26,6 @@ export default function AccountForm({
         />
         <label>Password</label>
         <input
-          required
           type="password"
           onChange={(e) => updateFeild({ password: e.target.value })}
           value={password}
